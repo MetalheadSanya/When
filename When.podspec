@@ -22,10 +22,4 @@ Pod::Spec.new do |s|
     ss.source_files  = "Sources/When/**/*"
     ss.framework  = "Foundation"
   end
-
-  s.subspec "RxSwift" do |ss|
-    ss.source_files = "Sources/RxWhen/**/*"
-    ss.dependency "When/Core"
-    ss.dependency "RxSwift", "4.0.0-beta.0"
-  end
 end
